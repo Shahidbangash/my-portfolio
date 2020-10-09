@@ -1,0 +1,21 @@
+@import 'bootstrap';
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+$theme-colors: (
+  "primary": #a80000,
+  "danger": #ff4136
+);
+
+
+
+body{
+    margin: 0;
+
+
+}
+$primary: rebeccapurple !important;
+$danger: #dd0000;
+$success: lime;
+$warning: orange;
+$info: aqua;
