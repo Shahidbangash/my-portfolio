@@ -1,18 +1,17 @@
 <template>
 <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <service-card />
 </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import ServiceCard from "@/components/service-card.vue";
-
+// import ServiceCard from "@/components/service-card.vue";
+// import Navbar from "@/components/Navbar.vue";
 export default {
 
     components: {
-        ServiceCard
+        // ServiceCard,
+        // Navbar
     }
 };
 </script>

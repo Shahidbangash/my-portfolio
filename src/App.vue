@@ -1,18 +1,19 @@
 <template>
 <div class="container-fluid container-wrapper">
-    <div id="nav" class="container Navbar">
-        <router-link to="/" class=" nav-link">Home</router-link>
-        <router-link to="/about" class=" nav-link">About</router-link>
-        <router-link to="/contact" class=" nav-link">Contact</router-link>
-        <router-link to="/pricing" class=" nav-link">Pricing</router-link>
-        <router-link to="/services" class=" nav-link">Services</router-link>
-    </div>
 
 </div>
+<navbar />
 <router-view />
 </template>
 
-<router-view />
+<script>
+import Navbar from "@/components/Navbar.vue";
+export default {
+    components: {
+        Navbar
+    }
+}
+</script>
 
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap.scss";

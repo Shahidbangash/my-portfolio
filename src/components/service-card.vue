@@ -1,7 +1,7 @@
 <template>
 <div class="service-card">
-<img src="" alt="">
-    
+    <h1> HI</h1>
+
 </div>
 </template>
 
